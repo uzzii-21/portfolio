@@ -1,6 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import { info } from "../constant/info";
+//importing typewriter-effect
+import Typewriter from "typewriter-effect";
 
 // max screen with = max-w-[1160px]
 const Home: NextPage = () => {
@@ -16,7 +18,16 @@ const Home: NextPage = () => {
             <br />
             <strong className="text-6xl font-medium">{info.name}</strong>
           </h1>
-          <h2 className="text-3xl text-blue mt-4"> &gt; {info.title}</h2>
+          <h2 className="text-3xl text-blue mt-4 flex items-center">
+            <span className="mr-2"> &gt; </span>
+            <Typewriter
+              options={{
+                strings: info.title,
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </h2>
           <p className="my-1 mt-24">{"// complete the game to continue"}</p>
           <p className="my-1">{"// you can also see it on my Github page"}</p>
           <p className="my-1">
