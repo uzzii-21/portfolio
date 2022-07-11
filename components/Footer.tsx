@@ -12,6 +12,7 @@ const Footer = () => {
         </p>
         <div className="flex-1 flex items-center justify-end">
           <a
+            aria-label="LinkedIn Link"
             className="border-l lg:border-x-0 border-stroke h-[64px] px-5 flex items-center justify-center hover:text-white"
             href={info.linkedIn}
             target="_blank"
@@ -20,6 +21,7 @@ const Footer = () => {
             <LinkedinIcon />
           </a>
           <a
+            aria-label="Facebook Link"
             className="border-l lg:border-r border-stroke h-[64px] px-5 flex items-center justify-center hover:text-white"
             href={info.facebook}
             target="_blank"
@@ -28,6 +30,7 @@ const Footer = () => {
             <FacebookIcon />
           </a>
           <a
+            aria-label="Github Link"
             className="border-l border-stroke h-[64px] px-5 lg:px-8 flex items-center justify-center hover:text-white lg:ml-auto"
             href={info.github}
             target="_blank"
