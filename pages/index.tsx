@@ -11,7 +11,7 @@ const Home: NextPage = () => {
       <Head>
         <title>uzair-ahmed | _hello 👋</title>
       </Head>
-      <section className="max-w-screen-xl mx-auto px-8 flex items-center justify-start h-full">
+      <section className="max-w-screen-xl mx-auto px-5 lg:px-8 flex items-center justify-start h-full">
         <div>
           <h1 className="text-lg text-white">
             Hi <span className="hand inline-block">👋</span> . I am
