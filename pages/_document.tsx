@@ -15,10 +15,8 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap"
             rel="stylesheet"
           />
-          <meta
-            name="description"
-            content="Personal Portfolio | Uzair Ahmed"
-          ></meta>
+          <meta name="description" content="Personal Portfolio | Uzair Ahmed" />
+          <meta name="theme-color" content="#011627" />
         </Head>
         <body>
           <Main />
