@@ -70,7 +70,7 @@ const Navbar = () => {
       <button
         aria-label="Menu Hamburger"
         onClick={clickHandler}
-        className="flex lg:hidden items-center space-x-2 focus:outline-none bg-secondary text-fontColor active:text-white py-2 px-5 lg:px-8 group ml-auto"
+        className="flex lg:hidden items-center space-x-2 focus:outline-none bg-secondary text-fontColor active:text-white py-5 px-5 lg:px-8 group ml-auto"
       >
         <span className="">Menu</span>
 

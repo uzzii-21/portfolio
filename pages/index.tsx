@@ -42,6 +42,7 @@ const Home: NextPage = () => {
             >
               {info.github}
             </a>
+            <span className="text-white">;</span>
           </p>
         </div>
       </section>
