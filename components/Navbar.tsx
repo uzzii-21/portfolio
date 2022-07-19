@@ -56,6 +56,15 @@ const Navbar = () => {
             _certificates
           </a>
         </Link>
+        <Link href="/contact-me">
+          <a
+            className={`${
+              router.pathname == "/certificates" ? "active-nav text-white" : ""
+            } py-5 px-8 border-r border-stroke hover:text-white relative nav-hover block lg:hidden`}
+          >
+            _contact-me
+          </a>
+        </Link>
       </nav>
       <Link href="/contact-me">
         <a
