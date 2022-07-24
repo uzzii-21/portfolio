@@ -80,3 +80,19 @@
   -o-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
 }
+
+@keyframes scale-animation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.scaled-image {
+  animation: scale-animation 5s ease infinite;
+}
